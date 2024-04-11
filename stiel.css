@@ -4,3 +4,42 @@
     margin: 0px;
     font-family: "Inter" , sans-serif;
 }
+section{
+
+    min-height: 100vh;
+    background-size: cover;
+    background-position: senter;
+    position: relative;
+}
+#main{
+    background-image: url("img/bgMAIN.png");
+}#about{
+    background-image: url("img/bgABOUT.png");
+}
+#skills{
+    background-image: url("img/bgSKILLS.png");
+}
+#works{
+    background-image: url("img/bgWORKS.png");
+}
+#comments{
+    background-image: url("img/bgCOMMENTS.png");
+}
+.main-block,
+.about-block,
+.skills-block,
+.works-block,
+.comments-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+.main-block{
+    flex-direction: column;
+    height: 100hv;
+}
+
+.name{
+    background-image: url(img/form1.png);
+}
