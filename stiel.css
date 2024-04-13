@@ -52,7 +52,7 @@ section{
     font-size: 20px;
     background-size: contain;
     padding-top: 25px;
-    padding-left: 5px;
+    padding-left: 95px;
     margin: 0px;
 }
 
@@ -61,5 +61,14 @@ section{
     border-radius: 5px;
     background-color: rgb(247, 0, 255);
     color: black;
-    
+    transition-duration: 2s;
+}
+
+.button:hover{
+    color: beige;
+    transform: skewx(23deg);
+}
+.planet{
+    position: absolute;
+    bottom: 20px;
 }
