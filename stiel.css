@@ -45,6 +45,7 @@ section{
 .name{
     background-image: url(img/form1.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: 100%;
     min-height: 50px;
     min-width: 400px;
