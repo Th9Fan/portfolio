@@ -38,8 +38,27 @@ section{
 .main-block{
     flex-direction: column;
     height: 100hv;
+    
+
 }
 
 .name{
     background-image: url(img/form1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 50px;
+    min-width: 400px;
+    font-size: 20px;
+    background-size: contain;
+    padding-top: 25px;
+    padding-left: 5px;
+    margin: 0px;
+}
+
+.button{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(247, 0, 255);
+    color: black;
+    
 }
