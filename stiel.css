@@ -69,8 +69,8 @@ section{
 }
 
 .button:hover{
-    color: beige;
-    transform: skewx(23deg);
+    /* color: beige;
+    transform: skewx(23deg); */
 }
 .planet{
     position: absolute;
@@ -131,5 +131,6 @@ section{
     margin: 0px 0px;
     padding: 0px 40px;
     padding-top:39px ;
-    min-height: 230px;
+    min-height: 200px;
+    border-radius:0px;
 }
