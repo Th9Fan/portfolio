@@ -63,7 +63,7 @@ section{
     font-weight:700px ;
     padding: 23px 26px;
     border-radius:100px;
-    background-color: rgb(247, 0, 255);
+    background-color: rgb(21, 255, 0);
     color: black;
     transition-duration: 2s;
 }
@@ -133,4 +133,7 @@ section{
     padding-top:39px ;
     min-height: 200px;
     border-radius:0px;
+}
+.help{
+    margin-top: 80%;
 }
