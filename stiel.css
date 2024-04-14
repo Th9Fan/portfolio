@@ -128,7 +128,7 @@ section{
 
 .about-me{
     background-color: blueviolet;
-    margin: 0px;
-    padding: 0px;
+    margin: 0px 0px;
+    padding: 5px 10px;
     min-height: 230px;
 }
