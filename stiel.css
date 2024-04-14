@@ -54,11 +54,15 @@ section{
     padding-top: 25px;
     padding-left: 95px;
     margin: 0px;
+    
+    
 }
 
 .button{
-    padding: 3px;
-    border-radius: 5px;
+    font-size: 20px;
+    font-weight:700px ;
+    padding: 23px 26px;
+    border-radius:100px;
     background-color: rgb(247, 0, 255);
     color: black;
     transition-duration: 2s;
@@ -71,4 +75,52 @@ section{
 .planet{
     position: absolute;
     bottom: 20px;
+    animation-name: downup;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes downup{
+    0%{
+        transform: translate(50px,-50px);
+    }
+    25%{
+        transform: translate(100px,-50px);
+    }
+    50%{
+        transform: translate(100px,-100px);
+    }
+    75%{
+        transform: translate(50px,-100px);
+    }
+    100%{
+        transform: translate(50px,-50px);
+    }
+    
+}
+.title{
+    font-size: 80px;
+    text-shadow: 5px 5px 0 black;
+    color: white;
+    font-weight: 700px;
+    
+}
+
+.about-block{
+    flex-direction: column;
+    height: 100hv;
+}
+.photo{
+    background-image: url(img/form2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    min-height: 300px;
+    min-width: 400px;
+    font-size: 20px;
+    background-size: contain;
+    padding-top: 0px;
+    padding-left: 95px;
+    margin: 0px;
 }
