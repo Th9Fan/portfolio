@@ -176,3 +176,11 @@ section{
 .programing-languages{
     display: flex;
 }
+.swiper-slide{
+    background-color: bisque;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
