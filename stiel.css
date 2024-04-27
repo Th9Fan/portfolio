@@ -106,6 +106,7 @@ section{
     color: white;
     font-weight: 700px;
     text-align: center;
+    text-transform: uppercase;
     
 }
 
@@ -192,3 +193,71 @@ section{
     width: 100%;
     object-fit: contain;
 }
+.comments-block{
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.comments-card{
+    background-image: url(img/card.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comments-card img{
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.comments-card p{
+    font-family: comfortaa;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.comments-card h3{
+    font-family: comfortaa;
+}
+
+.comments-bubble{
+    background-image: url(img/comment.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 160px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.comments-bubble p{
+    font-family: comfortaa;
+    font-size: 20px;
+    max-width: 250px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(263, 98%, 16%);
+    color: white;
+    flex-direction: row;
+    padding: 10px 20px;
+    /* padding-bottom: 20px; */
+}
+
