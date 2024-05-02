@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     font-family: "Inter" , sans-serif;
+    scroll-behavior: smooth;
 }
 section{
 
@@ -63,7 +64,7 @@ section{
     font-weight:700;
     padding: 23px 26px;
     border-radius:100px;
-    background-color: rgb(21, 255, 0);
+    background-color: #bbff2c;
     color: black;
     transition-duration: 2s;
     text-decoration: none;
@@ -261,3 +262,43 @@ footer{
     /* padding-bottom: 20px; */
 }
 
+.header{
+    display: flex;
+    justify-content: space-between; 
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+
+}
+
+.logo{
+    color: #bbff2c;
+    font-size: 80px;
+    padding-left: 50px;
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-right: 15%;
+    
+
+}
+
+.menu-link{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px 17px;
+    text-decoration: none;
+    background-color: #fff;
+    font-family: comfortaa;
+    color: #000;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #792aff;
+    color: #fff;
+}
