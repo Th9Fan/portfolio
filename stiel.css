@@ -13,18 +13,18 @@ section{
     position: relative;
 }
 #main{
-    /* background-image: url("img/bgMAIN.png"); */
+    background-image: url("img/bgMAIN.png");
 }#about{
-    /* background-image: url("img/bgABOUT.png"); */
+    background-image: url("img/bgABOUT.png");
 }
 #skills{
-    /* background-image: url("img/bgSKILLS.png"); */
+    background-image: url("img/bgSKILLS.png");
 }
 #works{
-    /* background-image: url("img/bgWORKS.png"); */
+    background-image: url("img/bgWORKS.png");
 }
 #comments{
-    /* background-image: url("img/bgCOMMENTS.png"); */
+    background-image: url("img/bgCOMMENTS.png");
 }
 .main-block,
 .about-block,
@@ -313,19 +313,30 @@ footer{
         padding-left:20px ;
         padding-top: 10px;
     }
-}
-@media (max-width:520px){
-    *{
-        background-color:#792aff;
+
+    .planet{
+        animation: none;
     }
-}
-@media (min-width:521px) and (max-width:960px){
-    *{
-        background-color:#bbff2c;
+
+    .title{
+        font-size: 50px;
     }
-}
-@media (min-width:961px){
-    *{
-        background-color:#000;
+
+    .about-block{
+        flex-direction: column-reverse;
+        align-content: center;
     }
+
+    .about-me{
+        padding: 39px 20px;
+    }
+
+    .skills-block{
+        font-size: 15px;
+        flex-direction: column;
+    }
+
+
+
+
 }
