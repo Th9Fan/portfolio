@@ -296,6 +296,8 @@ footer{
     font-family: comfortaa;
     color: #000;
     cursor: pointer;
+    width: 100px;
+    text-align: center;
 }
 
 .active{
@@ -303,7 +305,41 @@ footer{
     color: #fff;
 }
 
+.menu-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu{
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #200153;
+    gap: 16px;
+}
+
+.hide{
+    display: none;
+}
+
 @media (max-width:1000px){
+
+    .hide{
+        
+    }
+
+    .menu-button{
+        display:inline;
+    }
+
+
     .menu{
         display: none;
 
