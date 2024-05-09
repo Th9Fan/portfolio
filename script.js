@@ -11,7 +11,7 @@ const swiper = new Swiper('.swiper', {
 const menu = document.querySelector(".menu");
 const menu_link = menu.querySelectorAll(".menu-link");
 const mobimenu = document.querySelector(".mobile-menu")
-const mobi_link = mobimenu.querySelector(".menu-link")
+const mobi_link = mobimenu.querySelectorAll(".menu-link")
 
 function changeactive (event){
   console.log(event.target)
